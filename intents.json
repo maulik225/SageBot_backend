@@ -1,0 +1,55 @@
+{
+    "intents": [
+      {
+        "tag": "greetings",
+        "patterns": ["hello", "hi", "hey", "good morning", "good afternoon"],
+        "responses": ["Hello! Welcome to the hospital website. How can I assist you today?", "Hi there! How can I help you with registration or sign-in?"]
+      },
+      {
+        "tag": "help",
+        "patterns": ["help", "need assistance", "can't sign in", "can't register", "need help with account"],
+        "responses": ["Of course! I'm here to help. What seems to be the problem with your account?", "No problem! Let's get you sorted. What specifically do you need assistance with?"]
+      },
+      {
+        "tag": "registration",
+        "patterns": ["register", "sign up", "create account", "new acc  `ount", "get started"],
+        "responses": ["To register for the hospital website, simply click on the 'Register' or 'Sign Up' button on the homepage.", "You can start the registration process by clicking on 'Create Account'. If you encounter any issues, feel free to ask for assistance."]
+      },
+      {
+        "tag": "sign_in",
+        "patterns": ["sign in", "log in", "existing account", "login", "access account"],
+        "responses": ["To sign in to your existing account, enter your username and password on the login page.", "You can log in to your account using your username and password. If you've forgotten your credentials, there's an option to reset them."]
+      },
+      {
+        "tag": "forgot_password",
+        "patterns": ["forgot password", "reset password", "can't remember password", "password reset"],
+        "responses": ["If you've forgotten your password, you can reset it by clicking on the 'Forgot Password' link on the login page.", "To reset your password, enter your email address or username, and we'll send you instructions to reset it."]
+      },
+      {
+        "tag": "contact_support",
+        "patterns": ["contact support", "need help from support", "customer service", "technical issue", "get in touch with support"],
+        "responses": ["If you require further assistance, please contact our customer support team at [support email/phone number]. They'll be happy to assist you with any issues you're experiencing.", "For additional help, you can reach out to our support team. They're available to assist you with any questions or concerns you may have."]
+      },
+      {
+        "tag": "account_verification",
+        "patterns": ["verification email not received", "verify account", "verify email", "account activation", "email confirmation"],
+        "responses": ["If you haven't received the verification email, please check your spam or junk folder. If you still can't find it, you can request a new verification email by logging in to your account and clicking on the 'Resend Verification Email' option."]
+      },
+      {
+        "tag": "profile_update",
+        "patterns": ["update profile", "change password", "update personal information", "edit profile"],
+        "responses": ["You can update your profile information, including your password, by accessing the 'Account Settings' section in your dashboard. From there, you'll be able to make any necessary changes."]
+      },
+      {
+        "tag": "technical_issue",
+        "patterns": ["site not loading", "error message on login", "page not found", "website down", "technical problem"],
+        "responses": ["I apologize for the inconvenience. It seems like there's a technical issue with the website. Our technical team is working to resolve it as quickly as possible. Please try again later, or contact support if the problem persists."]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["bye", "goodbye", "see you later", "take care"],
+        "responses": ["Goodbye! Feel free to return if you need further assistance.", "Take care! Don't hesitate to reach out if you need help in the future."]
+      }
+    ]
+  }
+  
